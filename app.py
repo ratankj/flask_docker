@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "this is our first application"
+    return "This is our first application."
 
 if __name__=="__main__":
     #app.run(debug=True)
